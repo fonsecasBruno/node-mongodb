@@ -1,10 +1,8 @@
 const mongoose = require('mongoose')
 
 const schema = mongoose.Schema({
-    nome: String,
-    preco: Number,
-    tamanho: String,
-    tipo: String
+    mesa: Number,
+    data_pagamento: String
 })
 
 const Comanda = mongoose.model('Comanda', schema)
